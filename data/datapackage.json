@@ -1,0 +1,45 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+      {
+        "name": "henry_hub_natural_gas_spot_price",
+        "path": "https://www.eia.gov/dnav/ng/hist/rngwhhdm.htm",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "Henry Hub Natural Gas Spot Price",
+              "type": "integer",
+              "format": "default"
+            }
+          ]
+        },
+        "title": "Henry_Hub_Natural_Gas_Spot_Price",
+        "format": "csv",
+        "description": "This describes the details of gas prices per day over the years. "
+      }
+    ],
+    "keywords": [
+      "Henry Gas Prices",
+      "Gas Prices",
+      "Natural Gas prices"
+    ],
+    "name": "henry_hub_natural_gas_spot_price",
+    "title": "Henry Hub Natural Gas Spot Price",
+    "description": "To display gas prices per year, month and days. ",
+    "homepage": "https://www.eia.gov/dnav/ng/hist/rngwhhdm.htm",
+    "version": "1.0.0",
+    "contributors": [
+      {
+        "title": "Samuel Arogbonlo",
+        "role": "author"
+      }
+    ],
+    "licenses": [
+      {
+        "name": "CC-BY-SA-4.0",
+        "title": "Creative Commons Attribution Share-Alike 4.0",
+        "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  }
